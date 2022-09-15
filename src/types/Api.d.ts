@@ -7,3 +7,7 @@ export interface ICategoryIndex {
 export interface ICategoryTypes {
     types: IType[];
 }
+
+export interface ITypePins {
+    pins: PinOutput[];
+}
