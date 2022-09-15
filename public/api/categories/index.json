@@ -1,0 +1,14 @@
+{
+    "categories": [
+        {
+            "id": "category_0",
+            "title": "Loot",
+            "description": ""
+        },
+        {
+            "id": "category_1",
+            "title": "Wood",
+            "description": "Fallen trees you can break to get wood"
+        }
+    ]
+}
