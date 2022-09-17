@@ -1,5 +1,22 @@
 {
     "pins": [
-        
+        {
+            "id": "category_1_type_1_pin_0",
+            "x": 1583.0377194839455,
+            "y": 2598.779874208331,
+            "title": "Oak wood",
+            "imageUrl": "",
+            "description": "",
+            "area": "Farmlands"
+        },
+        {
+            "id": "category_1_type_1_pin_1",
+            "title": "Oak wood",
+            "area": "Farmlands",
+            "x": 1699.510947988353,
+            "y": 2615.231546436156,
+            "description": "",
+            "imageUrl": ""
+        }
     ]
 }
