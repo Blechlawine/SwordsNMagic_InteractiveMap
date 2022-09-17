@@ -17,6 +17,7 @@
         </template>
         <template #actions>
             <Button @click="copyJson">Copy Json</Button>
+            <Button @click="remove">Delete</Button>
             <Button @click="save" primary>Save</Button>
         </template>
     </Dialog>
@@ -33,6 +34,7 @@ import Dropdown from "../inputs/Dropdown.vue";
 const emit = defineEmits<{
     (e: "save", data: PinOutput): void;
     (e: "close"): void;
+    (e: "delete"): void;
 }>();
 
 const props = defineProps({
@@ -108,6 +110,10 @@ const copyJson = () => {
             imageUrl: imageUrl.value,
         })
     );
+};
+const remove = () => {
+    emit("delete");
+    emit("close");
 };
 </script>
 <style scoped></style>

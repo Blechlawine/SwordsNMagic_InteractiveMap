@@ -21,6 +21,7 @@
             :preset-values="pinDialogPresetValues"
             @close="closePinDialog"
             @save="upsertPrivatePin"
+            @delete="deletePin"
         />
     </div>
 </template>
@@ -30,7 +31,7 @@ import PinDialog from "../components/dialog/PinDialog.vue";
 import Button from "./Button.vue";
 import Pin from "./Pin.vue";
 import { addAlert, currentMapImageSrc, currentArea } from "../store/app";
-import { pins, upsertPrivatePin } from "../store/data";
+import { pins, upsertPrivatePin, deletePrivatePin } from "../store/data";
 import { PinOutput, PinValidator } from "../types/validators";
 
 const moving = ref(false);
@@ -126,6 +127,9 @@ const editPin = (pin: PinOutput) => {
     canMove.value = false;
     pinDialogPresetValues.value = pin;
     pinDialogOpen.value = true;
+};
+const deletePin = () => {
+    if (pinDialogPresetValues.value) deletePrivatePin(pinDialogPresetValues.value.id);
 };
 </script>
 <style scoped lang="scss">
