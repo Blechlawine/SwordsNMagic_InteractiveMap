@@ -53,6 +53,24 @@
             "y": 2541.811699429401,
             "description": "",
             "imageUrl": ""
+        },
+        {
+            "id": "category_1_type_1_pin_6",
+            "title": "Oak wood",
+            "area": "Farmlands",
+            "x": 2462.3963894755934,
+            "y": 2411.7370007463833,
+            "description": "",
+            "imageUrl": ""
+        },
+        {
+            "id": "category_1_type_1_pin_7",
+            "title": "Oak wood",
+            "area": "Farmlands",
+            "x": 2277.38912867584,
+            "y": 2473.95967292524,
+            "description": "",
+            "imageUrl": ""
         }
     ]
 }
