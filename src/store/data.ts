@@ -67,6 +67,6 @@ const savePrivatePins = () => {
 
 const loadPrivatePins = () => {
     const privatePins = localStorage.getItem("pins");
-    if (!privatePins) return;
-    return JSON.parse(privatePins);
+    if (!privatePins) return [];
+    return JSON.parse(privatePins) ?? [];
 };
