@@ -1,16 +1,19 @@
-# Vue 3 + TypeScript + Vite
+# Swords 'n Magic Interactive Map
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+An interactive map for planning your farming routes and finding stuff in the game Swords 'n Magic and stuff
 
-## Recommended IDE Setup
+**Available here: [https://snminteractivemap.zmarc.de](https://snminteractivemap.zmarc.de)**
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+> This repository contains the new and improved version 2.0 of my Swords 'n Magic Interactive Map. You can find version 1.0 here: [Swords 'n Magic Interactive map 1.0](https://github.com/blechlawine/snminteractivemap)
 
-## Type Support For `.vue` Imports in TS
+## Features
+- Unlimited private pins
+- Different areas: Azura, Farmlands
 
-Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can enable Volar's Take Over mode by following these steps:
+## Submitting pins to be made public
 
-1. Run `Extensions: Show Built-in Extensions` from VS Code's command palette, look for `TypeScript and JavaScript Language Features`, then right click and select `Disable (Workspace)`. By default, Take Over mode will enable itself if the default TypeScript extension is disabled.
-2. Reload the VS Code window by running `Developer: Reload Window` from the command palette.
+You can submit pins to be made public by submitting a pull request with the necessary data added to the `/public/api` directory.
+The data can be obtained from the edit pin dialog in the webapp, by clicking `copy JSON`. It copies the data from the pin to your clipboard. before submitting this data you need to remove the `typeId` field and the `status` field from the JSON.
 
-You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/volar/discussions/471).
+### Disclaimer
+This is a fan made project and is in no way affiliated with Kindred Games, the developer of the game "Swords 'n Magic and stuff". They only provided the high-resolution map images.
