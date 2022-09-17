@@ -9,7 +9,10 @@
                 </Button>
             </div>
             <div class="dialogContent">
-                <slot></slot>
+                <slot name="content"></slot>
+                <div class="dialog-actions">
+                    <slot name="actions"></slot>
+                </div>
             </div>
         </div>
     </div>
@@ -99,6 +102,14 @@ const dialogStyle = computed(() => ({
         margin: 6px;
         margin-top: -6px;
         z-index: 210;
+    }
+
+    .dialog-actions {
+        display: flex;
+        flex-direction: row;
+        gap: 8px;
+        align-items: center;
+        justify-content: flex-end;
     }
 }
 </style>

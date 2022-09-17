@@ -1,19 +1,24 @@
 <template>
     <Dialog class="pinDialog" :title="title" :open="open" @close="close" :z-index="zIndex">
-        <p>x: {{ presetValues?.x }} y: {{ presetValues?.y }}</p>
-        <TextInput v-model="title" label="Name"></TextInput>
-        <TextInput v-model="imageUrl" label="Image-url"></TextInput>
-        <TextInput v-model="description" label="Description"></TextInput>
-        <Dropdown :values="types" label="Type" v-model="pinType">
-            <template #current="{ value }">
-                <p>{{ `${value?.title ?? "Select one"}` }}</p>
-            </template>
-            <template #value="{ value }">
-                <p>{{ `${value.title}` }}</p>
-            </template>
-        </Dropdown>
-        <p class="error" v-if="typeId === null">Please select a type.</p>
-        <Button @click="save" primary>Save</Button>
+        <template #content>
+            <p>x: {{ presetValues?.x }} y: {{ presetValues?.y }}</p>
+            <TextInput v-model="title" label="Name"></TextInput>
+            <TextInput v-model="imageUrl" label="Image-url"></TextInput>
+            <TextInput v-model="description" label="Description"></TextInput>
+            <Dropdown :values="types" label="Type" v-model="pinType">
+                <template #current="{ value }">
+                    <p>{{ `${value?.title ?? "Select one"}` }}</p>
+                </template>
+                <template #value="{ value }">
+                    <p>{{ `${value.title}` }}</p>
+                </template>
+            </Dropdown>
+            <p class="error" v-if="typeId === null">Please select a type.</p>
+        </template>
+        <template #actions>
+            <Button @click="copyJson">Copy Json</Button>
+            <Button @click="save" primary>Save</Button>
+        </template>
     </Dialog>
 </template>
 <script setup lang="ts">
@@ -94,7 +99,15 @@ const close = () => {
     typeId.value = null;
     emit("close");
 };
+const copyJson = () => {
+    navigator.clipboard.writeText(
+        JSON.stringify({
+            ...props.presetValues,
+            title: title.value,
+            description: description.value,
+            imageUrl: imageUrl.value,
+        })
+    );
+};
 </script>
-<style scoped>
-    
-</style>
+<style scoped></style>
