@@ -119,6 +119,7 @@ const cancelTool = (event: KeyboardEvent) => {
 const closePinDialog = () => {
     canMove.value = true;
     window.removeEventListener("keydown", cancelTool);
+    pinDialogPresetValues.value = null;
     pinDialogOpen.value = false;
 };
 const editPin = (pin: PinOutput) => {
