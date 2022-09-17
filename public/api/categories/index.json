@@ -7,8 +7,18 @@
         },
         {
             "id": "category_1",
-            "title": "Wood",
-            "description": "Fallen trees you can break to get wood"
+            "title": "Materials",
+            "description": ""
+        },
+        {
+            "id": "category_2",
+            "title": "Buildings",
+            "description": ""
+        },
+        {
+            "id": "category_3",
+            "title": "Enemies",
+            "description": ""
         }
     ]
 }
