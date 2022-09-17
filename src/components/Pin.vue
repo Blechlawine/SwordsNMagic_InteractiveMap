@@ -9,7 +9,7 @@
                     {{ pin?.title ?? "" }}
                 </p>
                 <div class="headerBtns">
-                    <Button @click.stop="$emit('edit', pin)" icon>
+                    <Button @click.stop="$emit('edit', pin)" icon v-if="pin?.status === 'private'">
                         <Icon name="md-edit-round"></Icon>
                     </Button>
                     <Button @click="detailsOpen = !detailsOpen" icon>
