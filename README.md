@@ -2,7 +2,7 @@
 
 An interactive map for planning your farming routes and finding stuff in the game Swords 'n Magic and stuff
 
-**Available here: [https://snminteractivemap.zmarc.de](https://snminteractivemap.zmarc.de)**
+**Soon available here: [https://snminteractivemap.zmarc.de](https://snminteractivemap.zmarc.de)**
 
 > This repository contains the new and improved version 2.0 of my Swords 'n Magic Interactive Map. You can find version 1.0 here: [Swords 'n Magic Interactive map 1.0](https://github.com/blechlawine/snminteractivemap)
 
