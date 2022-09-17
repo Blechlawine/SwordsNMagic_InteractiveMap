@@ -1,0 +1,19 @@
+{
+    "types": [
+        {
+            "id": "category_2_type_0",
+            "title": "Shops",
+            "description": ""
+        },
+        {
+            "id": "category_2_type_1",
+            "title": "Banks",
+            "description": ""
+        },
+        {
+            "id": "category_2_type_2",
+            "title": "Community gardens",
+            "description": ""
+        }
+    ]
+}

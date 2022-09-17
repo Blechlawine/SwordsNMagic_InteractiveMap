@@ -1,0 +1,76 @@
+{
+    "pins": [
+        {
+            "id": "category_1_type_1_pin_0",
+            "x": 1583.0377194839455,
+            "y": 2598.779874208331,
+            "title": "Oak wood",
+            "imageUrl": "",
+            "description": "",
+            "area": "Farmlands"
+        },
+        {
+            "id": "category_1_type_1_pin_1",
+            "title": "Oak wood",
+            "area": "Farmlands",
+            "x": 1699.510947988353,
+            "y": 2615.231546436156,
+            "description": "",
+            "imageUrl": ""
+        },
+        {
+            "id": "category_1_type_1_pin_2",
+            "title": "Oak wood",
+            "area": "Farmlands",
+            "x": 1882,
+            "y": 2705,
+            "description": "",
+            "imageUrl": ""
+        },
+        {
+            "id": "category_1_type_1_pin_3",
+            "title": "Oak wood",
+            "area": "Farmlands",
+            "x": 2054,
+            "y": 2721,
+            "description": "",
+            "imageUrl": ""
+        },
+        {
+            "id": "category_1_type_1_pin_4",
+            "title": "Oak wood",
+            "area": "Farmlands",
+            "x": 2136.2875128256605,
+            "y": 2784.455387616871,
+            "description": "",
+            "imageUrl": ""
+        },
+        {
+            "id": "category_1_type_1_pin_5",
+            "title": "Oak wood",
+            "area": "Farmlands",
+            "x": 2363.3553387256516,
+            "y": 2541.811699429401,
+            "description": "",
+            "imageUrl": ""
+        },
+        {
+            "id": "category_1_type_1_pin_6",
+            "title": "Oak wood",
+            "area": "Farmlands",
+            "x": 2462.3963894755934,
+            "y": 2411.7370007463833,
+            "description": "",
+            "imageUrl": ""
+        },
+        {
+            "id": "category_1_type_1_pin_7",
+            "title": "Oak wood",
+            "area": "Farmlands",
+            "x": 2277.38912867584,
+            "y": 2473.95967292524,
+            "description": "",
+            "imageUrl": ""
+        }
+    ]
+}

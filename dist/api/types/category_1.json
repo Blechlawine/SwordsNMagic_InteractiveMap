@@ -1,0 +1,24 @@
+{
+    "types": [
+        {
+            "id": "category_1_type_0",
+            "title": "Ores",
+            "description": ""
+        },
+        {
+            "id": "category_1_type_1",
+            "title": "Oak wood",
+            "description": ""
+        },
+        {
+            "id": "category_1_type_2",
+            "title": "Dark wood",
+            "description": ""
+        },
+        {
+            "id": "category_1_type_3",
+            "title": "Maple wood",
+            "description": ""
+        }
+    ]
+}

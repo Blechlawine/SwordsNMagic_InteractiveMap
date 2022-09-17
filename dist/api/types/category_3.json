@@ -1,0 +1,29 @@
+{
+    "types": [
+        {
+            "id": "category_3_type_0",
+            "title": "Scarecrows",
+            "description": "Woooooh, scaaryy..."
+        },
+        {
+            "id": "category_3_type_1",
+            "title": "Wolves",
+            "description": ""
+        },
+        {
+            "id": "category_3_type_2",
+            "title": "Boars",
+            "description": ""
+        },
+        {
+            "id": "category_3_type_3",
+            "title": "Bandits",
+            "description": ""
+        },
+        {
+            "id": "category_3_type_4",
+            "title": "Spiders",
+            "description": ""
+        }
+    ]
+}

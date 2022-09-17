@@ -1,0 +1,14 @@
+{
+    "types": [
+        {
+            "id": "category_0_type_0",
+            "title": "Chest",
+            "description": ""
+        },
+        {
+            "id": "category_0_type_1",
+            "title": "Breakable Container",
+            "description": ""
+        }
+    ]
+}
