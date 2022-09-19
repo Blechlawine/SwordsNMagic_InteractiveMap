@@ -1,9 +1,8 @@
 import { nanoid } from "nanoid";
 import { z } from "zod";
-import { currentArea } from "../store/app";
 
 export const PinValidator = z.object({
-    id: z.string().default(nanoid()),
+    id: z.string().default(() => nanoid()),
     title: z.string(),
     description: z.string().optional(),
     area: z.enum(["Azura", "Farmlands"]),
