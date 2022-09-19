@@ -3,18 +3,20 @@
         <div class="locations">
             <Tabs></Tabs>
         </div>
-        <p>Categories</p>
-        <FoldableSection class="category" v-for="category in categories" :key="category.id" :title="category.title">
-            <template #content>
-                <div class="toggleWrapper" v-for="pinType in getCategoryTypes(category)" :key="pinType.id">
-                    <ToggleSwitch
-                        :model-value="pinType.visible"
-                        @update:model-value="toggleType(pinType)"
-                        :label="`${pinType.title} (${getTypePins(pinType).length})`"
-                    ></ToggleSwitch>
-                </div>
-            </template>
-        </FoldableSection>
+        <div class="sections">
+            <p>Categories</p>
+            <FoldableSection class="category" v-for="category in categories" :key="category.id" :title="category.title">
+                <template #content>
+                    <div class="toggleWrapper" v-for="pinType in getCategoryTypes(category)" :key="pinType.id">
+                        <ToggleSwitch
+                            :model-value="pinType.visible"
+                            @update:model-value="toggleType(pinType)"
+                            :label="`${pinType.title} (${getTypePins(pinType).length})`"
+                        ></ToggleSwitch>
+                    </div>
+                </template>
+            </FoldableSection>
+        </div>
     </div>
 </template>
 <script setup lang="ts">
@@ -31,16 +33,23 @@ import FoldableSection from "./FoldableSection.vue";
     width: 100%;
     height: 100%;
     z-index: 1000;
-    padding: 12px;
+    overflow-y: auto;
 
-    display: flex;
-    flex-direction: column;
-    grid-gap: 12px;
+    .sections {
+        padding: 12px;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
 
     .locations {
         display: flex;
         flex-direction: row;
-        grid-gap: 8px;
+        gap: 8px;
+        padding: 12px;
+        position: sticky;
+        top: 0;
+        background-color: $backgroundColor;
     }
 
     .toggleWrapper {
