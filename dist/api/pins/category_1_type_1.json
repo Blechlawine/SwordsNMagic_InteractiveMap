@@ -71,6 +71,69 @@
             "y": 2473.95967292524,
             "description": "",
             "imageUrl": ""
+        },
+        {
+            "id": "category_1_type_1_pin_8",
+            "title": "Oak wood",
+            "area": "Farmlands",
+            "x": 2660.074999649687,
+            "y": 2014.9273044310528,
+            "description": "",
+            "imageUrl": ""
+        },
+        {
+            "id": "category_1_type_1_pin_9",
+            "title": "Oak wood",
+            "area": "Farmlands",
+            "x": 2408,
+            "y": 1884,
+            "description": "",
+            "imageUrl": ""
+        },
+        {
+            "id": "category_1_type_1_pin_10",
+            "title": "Oak wood",
+            "area": "Farmlands",
+            "x": 2439,
+            "y": 1846,
+            "description": "",
+            "imageUrl": ""
+        },
+        {
+            "id": "category_1_type_1_pin_11",
+            "title": "Oak wood",
+            "area": "Farmlands",
+            "x": 2385,
+            "y": 1860,
+            "description": "",
+            "imageUrl": ""
+        },
+        {
+            "id": "category_1_type_1_pin_12",
+            "title": "Oak wood",
+            "area": "Farmlands",
+            "x": 2322,
+            "y": 1584,
+            "description": "",
+            "imageUrl": ""
+        },
+        {
+            "id": "category_1_type_1_pin_13",
+            "title": "Oak wood",
+            "area": "Farmlands",
+            "x": 2304.2499023111645,
+            "y": 1533.3713914364162,
+            "description": "",
+            "imageUrl": ""
+        },
+        {
+            "id": "category_1_type_1_pin_14",
+            "title": "Oak wood",
+            "area": "Farmlands",
+            "x": 2172,
+            "y": 1286,
+            "description": "",
+            "imageUrl": ""
         }
     ]
 }
