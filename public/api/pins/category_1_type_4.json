@@ -1,0 +1,85 @@
+{
+    "pins": [
+        {
+            "id": "category_1_type_4_pin_0",
+            "title": "Beehive",
+            "area": "Farmlands",
+            "x": 2078.734068356418,
+            "y": 3017.5505919055186,
+            "description": "",
+            "imageUrl": ""
+        },
+        {
+            "id": "category_1_type_4_pin_1",
+            "title": "Beehive",
+            "area": "Farmlands",
+            "x": 2585,
+            "y": 1980,
+            "description": "",
+            "imageUrl": ""
+        },
+        {
+            "id": "category_1_type_4_pin_2",
+            "title": "Beehive",
+            "area": "Farmlands",
+            "x": 2105.4407655434234,
+            "y": 1303.671352663166,
+            "description": "",
+            "imageUrl": ""
+        },
+        {
+            "id": "category_1_type_4_pin_3",
+            "title": "Beehive",
+            "area": "Farmlands",
+            "x": 2154.127222364554,
+            "y": 1310.4577463943162,
+            "description": "",
+            "imageUrl": ""
+        },
+        {
+            "id": "category_1_type_4_pin_4",
+            "title": "Beehive",
+            "area": "Farmlands",
+            "x": 2112.298111257679,
+            "y": 1309.8500279483196,
+            "description": "",
+            "imageUrl": ""
+        },
+        {
+            "id": "category_1_type_4_pin_5",
+            "title": "Beehive",
+            "area": "Farmlands",
+            "x": 2102.7264244754197,
+            "y": 1286.5092146226289,
+            "description": "",
+            "imageUrl": ""
+        },
+        {
+            "id": "category_1_type_4_pin_6",
+            "title": "Beehive",
+            "area": "Farmlands",
+            "x": 2111.0697866507944,
+            "y": 1270.0495689474453,
+            "description": "",
+            "imageUrl": ""
+        },
+        {
+            "id": "category_1_type_4_pin_7",
+            "title": "Beehive",
+            "area": "Farmlands",
+            "x": 2127.4745237269385,
+            "y": 1261.5736118815807,
+            "description": "",
+            "imageUrl": ""
+        },
+        {
+            "id": "category_1_type_4_pin_8",
+            "title": "Beehive",
+            "area": "Farmlands",
+            "x": 2141.7650043650633,
+            "y": 1256.934794513713,
+            "description": "",
+            "imageUrl": ""
+        }
+    ]
+}

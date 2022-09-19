@@ -24,6 +24,11 @@ import {
     GiSpiderWeb,
     GiShoppingBag,
     GiBank,
+    GiTreeBeehive,
+    GiLotus,
+    GiMushrooms,
+    GiCrystalGrowth,
+    GiVanillaFlower,
 } from "oh-vue-icons/icons";
 import { createRouter, createWebHistory } from "vue-router";
 
@@ -46,7 +51,12 @@ addIcons(
     GiBandit,
     GiSpiderWeb,
     GiShoppingBag,
-    GiBank
+    GiBank,
+    GiTreeBeehive,
+    GiLotus,
+    GiMushrooms,
+    GiCrystalGrowth,
+    GiVanillaFlower,
 );
 
 const routes = [{ path: "/", component: App }];

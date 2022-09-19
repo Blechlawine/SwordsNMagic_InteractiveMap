@@ -1,5 +1,49 @@
 {
     "pins": [
-        
+        {
+            "id": "category_1_type_3_pin_0",
+            "title": "Maple wood",
+            "area": "Farmlands",
+            "x": 2423.6303245721006,
+            "y": 2514.2872230163007,
+            "description": "",
+            "imageUrl": ""
+        },
+        {
+            "id": "category_1_type_3_pin_1",
+            "title": "Maple wood",
+            "area": "Farmlands",
+            "x": 2350,
+            "y": 2387,
+            "description": "",
+            "imageUrl": ""
+        },
+        {
+            "id": "category_1_type_3_pin_2",
+            "title": "Maple wood",
+            "area": "Farmlands",
+            "x": 2381.9619541226357,
+            "y": 1984.3096848481687,
+            "description": "",
+            "imageUrl": ""
+        },
+        {
+            "id": "category_1_type_3_pin_3",
+            "title": "Maple wood",
+            "area": "Farmlands",
+            "x": 2133.233261709643,
+            "y": 1311.5841875515844,
+            "description": "",
+            "imageUrl": ""
+        },
+        {
+            "id": "category_1_type_3_pin_4",
+            "title": "Maple wood",
+            "area": "Farmlands",
+            "x": 2084.3057601720084,
+            "y": 1248.9793080121497,
+            "description": "",
+            "imageUrl": ""
+        }
     ]
 }

@@ -1,5 +1,58 @@
 {
     "pins": [
-        
+        {
+            "id": "category_0_type_0_pin_0",
+            "title": "Chest",
+            "area": "Farmlands",
+            "x": 1980.5793175905937,
+            "y": 2870.0168118722854,
+            "description": "Inside the small wooden enclosure",
+            "imageUrl": ""
+        },
+        {
+            "id": "category_0_type_0_pin_1",
+            "title": "Chest",
+            "area": "Farmlands",
+            "x": 2141,
+            "y": 2442,
+            "description": "Under water",
+            "imageUrl": ""
+        },
+        {
+            "id": "category_0_type_0_pin_2",
+            "title": "Chest",
+            "area": "Farmlands",
+            "x": 2095,
+            "y": 2590,
+            "description": "Between two bushes on the island",
+            "imageUrl": ""
+        },
+        {
+            "id": "category_0_type_0_pin_3",
+            "title": "Chest",
+            "area": "Farmlands",
+            "x": 2719,
+            "y": 2321,
+            "description": "On a small rock in the river",
+            "imageUrl": ""
+        },
+        {
+            "id": "category_0_type_0_pin_4",
+            "title": "Chest",
+            "area": "Farmlands",
+            "x": 2275,
+            "y": 1890,
+            "description": "",
+            "imageUrl": ""
+        },
+        {
+            "id": "category_0_type_0_pin_5",
+            "title": "Chest",
+            "area": "Farmlands",
+            "x": 2057.9448205871977,
+            "y": 1323.9483837312641,
+            "description": "",
+            "imageUrl": ""
+        }
     ]
 }

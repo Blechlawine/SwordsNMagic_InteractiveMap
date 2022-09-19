@@ -1,3 +1,40 @@
 {
-    "pins": []
+    "pins": [
+        {
+            "id": "category_1_type_0_pin_0",
+            "title": "Ore",
+            "area": "Farmlands",
+            "x": 2187,
+            "y": 2515,
+            "description": "",
+            "imageUrl": ""
+        },
+        {
+            "id": "category_1_type_0_pin_1",
+            "title": "Ore",
+            "area": "Farmlands",
+            "x": 2207.8306862034374,
+            "y": 2507.787378153891,
+            "description": "",
+            "imageUrl": ""
+        },
+        {
+            "id": "category_1_type_0_pin_2",
+            "title": "Ore",
+            "area": "Farmlands",
+            "x": 2059.568626745512,
+            "y": 1275.4373391265326,
+            "description": "",
+            "imageUrl": ""
+        },
+        {
+            "id": "category_1_type_0_pin_3",
+            "title": "Ore",
+            "area": "Farmlands",
+            "x": 2090.0341349424407,
+            "y": 1239.5429789940135,
+            "description": "",
+            "imageUrl": ""
+        }
+    ]
 }

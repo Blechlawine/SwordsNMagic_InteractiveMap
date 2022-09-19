@@ -23,6 +23,36 @@
             "title": "Maple wood",
             "icon": "gi-log",
             "description": ""
+        },
+        {
+            "id": "category_1_type_4",
+            "title": "Beehives",
+            "icon": "gi-tree-beehive",
+            "description": ""
+        },
+        {
+            "id": "category_1_type_5",
+            "title": "Lotus flowers",
+            "icon": "gi-lotus",
+            "description": ""
+        },
+        {
+            "id": "category_1_type_6",
+            "title": "Mushrooms",
+            "icon": "gi-mushrooms",
+            "description": ""
+        },
+        {
+            "id": "category_1_type_7",
+            "title": "Embershard",
+            "icon": "gi-crystal-growth",
+            "description": ""
+        },
+        {
+            "id": "category_1_type_8",
+            "title": "Wolfcress",
+            "icon": "gi-vanilla-flower",
+            "description": ""
         }
     ]
 }
