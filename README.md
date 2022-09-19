@@ -17,3 +17,7 @@ The data can be obtained from the edit pin dialog in the webapp, by clicking `co
 
 ### Disclaimer
 This is a fan made project and is in no way affiliated with Kindred Games, the developer of the game "Swords 'n Magic and stuff". They only provided the high-resolution map images.
+
+### Attribution
+
+This project uses [game-icons](https://github.com/game-icons/icons), licensed under CC-BY-3.0, through the npm package [oh-vue-icons](https://github.com/Renovamen/oh-vue-icons).
