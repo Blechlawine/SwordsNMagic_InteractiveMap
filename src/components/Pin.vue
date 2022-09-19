@@ -1,7 +1,7 @@
 <template>
     <div class="pin" :style="pinStyle">
         <div class="clicky" @click="detailsOpen = !detailsOpen">
-            <Icon name="md-locationpin" class="pinIcon"></Icon>
+            <Icon :name="pinType?.icon ?? 'md-locationpin'" class="pinIcon"></Icon>
         </div>
         <div class="details" v-if="detailsOpen">
             <div class="detailsHeader">
@@ -45,9 +45,8 @@ const props = defineProps({
 });
 
 const detailsOpen = ref(false);
-const visible = computed(
-    () => types.value.find((t) => t.id === props.pin?.typeId)?.visible && currentArea.value === props.pin?.area
-);
+const pinType = computed(() => types.value.find((t) => t.id === props.pin?.typeId));
+const visible = computed(() => pinType.value?.visible && currentArea.value === props.pin?.area);
 
 const pinStyle = computed(() => ({
     "margin-left": `${props.pin?.x}px`,

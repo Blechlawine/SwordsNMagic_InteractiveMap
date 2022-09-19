@@ -6,6 +6,7 @@ export interface IType {
     description: string | null;
     categoryId: string;
     visible: boolean;
+    icon?: string;
 }
 
 export interface ICategory {

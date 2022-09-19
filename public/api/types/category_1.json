@@ -3,21 +3,25 @@
         {
             "id": "category_1_type_0",
             "title": "Ores",
+            "icon": "gi-ore",
             "description": ""
         },
         {
             "id": "category_1_type_1",
             "title": "Oak wood",
+            "icon": "gi-log",
             "description": ""
         },
         {
             "id": "category_1_type_2",
             "title": "Dark wood",
+            "icon": "gi-log",
             "description": ""
         },
         {
             "id": "category_1_type_3",
             "title": "Maple wood",
+            "icon": "gi-log",
             "description": ""
         }
     ]

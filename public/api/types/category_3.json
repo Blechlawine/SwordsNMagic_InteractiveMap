@@ -3,26 +3,31 @@
         {
             "id": "category_3_type_0",
             "title": "Scarecrows",
+            "icon": "gi-scarecrow",
             "description": "Woooooh, scaaryy..."
         },
         {
             "id": "category_3_type_1",
             "title": "Wolves",
+            "icon": "gi-wolf-head",
             "description": ""
         },
         {
             "id": "category_3_type_2",
             "title": "Boars",
+            "icon": "gi-boar",
             "description": ""
         },
         {
             "id": "category_3_type_3",
             "title": "Bandits",
+            "icon": "gi-bandit",
             "description": ""
         },
         {
             "id": "category_3_type_4",
             "title": "Spiders",
+            "icon": "gi-spider-web",
             "description": ""
         }
     ]

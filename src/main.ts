@@ -13,7 +13,18 @@ import {
     MdCheckboxRound,
     MdCheckboxoutlineblankRound,
     MdEditRound,
-} from "oh-vue-icons/icons/md";
+    GiLog,
+    GiOre,
+    GiPlantSeed,
+    GiLockedChest,
+    GiWolfHead,
+    GiBoar,
+    GiScarecrow,
+    GiBandit,
+    GiSpiderWeb,
+    GiShoppingBag,
+    GiBank,
+} from "oh-vue-icons/icons";
 import { createRouter, createWebHistory } from "vue-router";
 
 addIcons(
@@ -24,7 +35,18 @@ addIcons(
     MdCheckboxRound,
     MdCheckboxoutlineblankRound,
     MdExpandlessRound,
-    MdCloseRound
+    MdCloseRound,
+    GiLog,
+    GiOre,
+    GiPlantSeed,
+    GiLockedChest,
+    GiWolfHead,
+    GiScarecrow,
+    GiBoar,
+    GiBandit,
+    GiSpiderWeb,
+    GiShoppingBag,
+    GiBank
 );
 
 const routes = [{ path: "/", component: App }];

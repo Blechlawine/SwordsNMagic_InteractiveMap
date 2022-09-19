@@ -97,6 +97,8 @@ const selectValue = (value: IType) => {
     .values {
         position: absolute;
         width: calc(100% - 12px);
+        max-height: 33vh;
+        overflow-y: auto;
         margin: 6px;
         margin-top: 36px;
         background-color: $red;
