@@ -1,0 +1,26 @@
+@import "./assets/_variables";
+
+/* Custom Scrollbar, yeah */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: $hoverColor;
+    border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: $paperColor;
+    border-radius: 5px;
+    border: $paperBorderColor solid 2px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: $red;
+    border: $darkRed solid 2px;
+}
