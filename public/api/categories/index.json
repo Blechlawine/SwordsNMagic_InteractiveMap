@@ -1,24 +1,9 @@
 {
     "categories": [
-        {
-            "id": "category_0",
-            "title": "Loot",
-            "description": ""
-        },
-        {
-            "id": "category_1",
-            "title": "Materials",
-            "description": ""
-        },
-        {
-            "id": "category_2",
-            "title": "Buildings",
-            "description": ""
-        },
-        {
-            "id": "category_3",
-            "title": "Enemies",
-            "description": ""
-        }
+        { "id": "category_0", "title": "Loot", "description": "" },
+        { "id": "category_1", "title": "Materials", "description": "" },
+        { "id": "category_2", "title": "Buildings", "description": "" },
+        { "id": "category_3", "title": "Enemies", "description": "" },
+        { "id": "category_4", "title": "Witch's Eve", "description": "" }
     ]
 }

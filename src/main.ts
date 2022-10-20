@@ -29,6 +29,8 @@ import {
     GiMushrooms,
     GiCrystalGrowth,
     GiVanillaFlower,
+    GiRaiseSkeleton,
+    GiPumpkinLantern,
 } from "oh-vue-icons/icons";
 import { createRouter, createWebHistory } from "vue-router";
 
@@ -57,6 +59,8 @@ addIcons(
     GiMushrooms,
     GiCrystalGrowth,
     GiVanillaFlower,
+    GiRaiseSkeleton,
+    GiPumpkinLantern,
 );
 
 const routes = [{ path: "/", component: App }];

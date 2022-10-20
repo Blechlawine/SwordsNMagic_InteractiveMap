@@ -1,0 +1,6 @@
+{
+    "types": [
+        { "title": "Skeletons", "icon": "gi-raise-skeleton", "description": "", "id": "category_4_type_0" },
+        { "title": "Pumpkins", "icon": "gi-pumpkin-lantern", "description": "", "id": "category_4_type_1" }
+    ]
+}
