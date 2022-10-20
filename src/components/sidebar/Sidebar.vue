@@ -50,6 +50,7 @@ import FoldableSection from "./FoldableSection.vue";
         position: sticky;
         top: 0;
         background-color: $backgroundColor;
+        z-index: 200;
     }
 
     .toggleWrapper {
