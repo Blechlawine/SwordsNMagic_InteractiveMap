@@ -8,7 +8,7 @@ An interactive map for planning your farming routes and finding stuff in the gam
 
 ## Features
 - Unlimited private pins
-- Different areas: Azura, Farmlands, Windless Woods (WIP)
+- Different areas: Azura, Farmlands, Windless Woods
 
 ## Submitting pins to be made public
 
