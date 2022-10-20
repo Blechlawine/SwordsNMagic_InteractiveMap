@@ -12,6 +12,10 @@ export const mapLocations = ref([
         name: "Farmlands",
         path: "Map_Farmlands.png",
     },
+    {
+        name: "Windless Woods",
+        path: "Map_WindlessWoods.png",
+    }
 ]);
 export const mapLocationIndex = ref(0);
 export const currentMapImageSrc = computed(() => mapLocations.value[mapLocationIndex.value].path);

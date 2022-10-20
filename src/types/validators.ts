@@ -5,7 +5,7 @@ export const PinValidator = z.object({
     id: z.string().default(() => nanoid()),
     title: z.string(),
     description: z.string().optional(),
-    area: z.enum(["Azura", "Farmlands"]),
+    area: z.enum(["Azura", "Farmlands", "Windless Woods"]),
     imageUrl: z.string().optional(),
     x: z.number(),
     y: z.number(),
